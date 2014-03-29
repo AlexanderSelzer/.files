@@ -1,3 +1,5 @@
+## Arch Linux Bash Configuration ##
+
 export EDITOR=vim
 
 # If not running interactively, don't do anything
