@@ -33,3 +33,21 @@ set backup
 set directory=~/.vim/tmp
 set backupdir=~/.vim/backup
 
+"" airline
+
+let g:airline#extensions#tabline#enabled = 1
+
+"" ctrlp
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+"" syntastic
+
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
+
+"" NERTtree
+
+map <C-n> :NERDTreeToggle<CR>
