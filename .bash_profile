@@ -1,5 +1,7 @@
 ## Mac Bash Configuration ##
 
+ulimit -n 2048
+
 export GOPATH=/users/AlexanderSelzer1/go
 
 export PATH=/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/libexec:/usr/X11/bin
